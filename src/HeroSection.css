@@ -1,0 +1,49 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color:rgb(193, 193, 20);
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .cta-button {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .hero-image {
+      margin-top: 2rem;
+    }
+  }
+  
